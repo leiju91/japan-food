@@ -324,7 +324,57 @@ section {
     color: var(--primary-color);
 }
 
+.footer {
+    color: var(--white);
+}
 
+.footer h1 {
+    color: var(--primary-color);
+}
+
+.input-group {
+    padding: 1rem;
+    border: .125rem solid var(--primary-color);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 2rem;   
+}
+
+.input-group input {
+    flex: auto;
+    outline: none;
+    border: none;
+    color: var(--primary-color);
+    background-color: transparent;
+
+}
+
+.input-group button {
+    padding: .5rem 1rem;
+    outline: none;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding: .5rem;
+    z-index: 99;
+    display: none;
+}
 /* GRID SYSTEM = BOOTSTRAP */
 /* EXTRA SMALL DEVICES */
 
