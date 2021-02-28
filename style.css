@@ -375,6 +375,48 @@ section {
     z-index: 99;
     display: none;
 }
+
+.food-item-wrap>div {
+    display: none;
+}
+
+.food-item-wrap.all>div {
+    display: block;
+}
+
+.food-item-wrap.ramen>div.ramen-type {
+    display: block;
+}
+
+.food-item-wrap.sushi>div.sushi-type {
+    display: block;
+}
+
+.food-item-wrap.sashimi>div.sashimi-type {
+    display: block;
+}
+
+.food-item-wrap.maki>div.maki-type {   
+    display: block;
+}
+
+.food-item-wrap.gyoza>div.gyoza-type {
+    display: block;
+}
+
+.food-item-wrap.onigiri>div.onigiri-type {
+    display: block;
+}
+
+.food-item-wrap.yakitori>div.yakitori-type {
+    display: block;
+}
+
+.food-item-wrap.dessert>div.dessert-type {
+    display: block;
+}
+
+
 /* GRID SYSTEM = BOOTSTRAP */
 /* EXTRA SMALL DEVICES */
 
