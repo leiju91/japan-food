@@ -8,3 +8,14 @@ window.onscroll = () => {
         backToTopBtn.style.display = 'none';
     }
 }
+
+//TOP NAV
+
+let menuItems = document.getElementsByClassName('menu-item');
+Array.from(menuItems).forEach((items, index) => {
+    items.onclick = (e) => {
+        let currMenu = document.querySelector('.menu-item.active');
+        currMenu.classList.remove('active');
+        items.classList.add('active');
+    }
+})
