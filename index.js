@@ -41,7 +41,7 @@ let scroll = window.requestAnimationFrame || function(callback)  {window.setTime
 let elToShow = document.querySelectorAll('.play-on-scroll');
 
 isElInViewPort = (el)=> {
-    let rect = el.getBoundingClientRect()
+    let rect = el.getBoundingClientRect();
     return (
         (rect.top <= 0 && rect.bottom >=0)
         ||

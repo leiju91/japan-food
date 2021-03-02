@@ -440,6 +440,7 @@ section {
 .right-to-left.start {
     transform: translateX(0);
 }
+
 .zoom {
     transform: scale(0);
     transition: .6s ease-in-out;
@@ -454,7 +455,7 @@ section {
 }
 
 .bottom-up.start {
-transform: translateY(0);
+    transform: translateY(0);
 }
 
 .delay-2 {
@@ -465,8 +466,7 @@ transform: translateY(0);
     transition-delay: .4s;
 }
 
-.delay-6 {
-   
+.delay-6 {   
     transition-delay: .6s;
 }
 
@@ -474,13 +474,14 @@ transform: translateY(0);
     transition-delay: .8s;
 }
 
-.delay-10 {
-    transition-delay: .10s;
+.delay-14 {
+    transition-delay: 1s;
 }
 
-.delay-12 {
-    transition-delay: .12s;
+.delay-15 {
+    transition-delay: 1.2s;
 }
+
 
 /* GRID SYSTEM = BOOTSTRAP */
 /* EXTRA SMALL DEVICES */
