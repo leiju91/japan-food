@@ -13,6 +13,31 @@
     <link rel="stylesheet" href="style.css">     
   </head>
   <body>
+    <!-- mobile nav -->
+    <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class="bx bxs-home"></i>
+            </a>            
+        </div>
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class="bx bxs-wink-smile"></i>
+            </a>            
+        </div>
+        <div class="mb-nav-item">
+            <a href="#food-menu">
+                <i class="bx bxs-food-menu"></i>
+            </a>            
+        </div>
+        <div class="mb-nav-item">
+            <a href="#testimonials">
+                <i class="bx bxs-comment-detail"></i>
+            </a>            
+        </div>
+    </div>
+    <!-- fin mobile nav -->
     <!-- BACK TO TOP -->
     <a href="#home" class="back-to-top">
         <i class="bx bxs-to-top"></i>
@@ -26,10 +51,10 @@
                 Japan Food
                 </div>                            
             </a> 
-            <div class="menu">
+            <div class="menu h-xs">
                 <a href="#home">
                     <div class="menu-item active">
-                         HOME
+                        Home
                     </div>
                 </a>
                 <a href="#about">
@@ -82,7 +107,7 @@
     </section>
     <!-- END SECTION HOME -->
     <!-- SECTION ABOUT -->
-    <div class="fullheight align-items-center" id="about">
+    <section class="fullheight align-items-center" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-7 h-xs">
@@ -100,7 +125,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- SECTION FIN ABOUT -->
     <!-- SECTION FOOD MENU -->
     <section class="align-items-center bg-img bg-img-fixed" id="food-menu" style="background-image: url(assets/photo-1568899466260-b6d4e061856f.jpg);">
@@ -138,12 +163,12 @@
                             Gyoza
                         </button>
                     </div>
-                    <div class="zoom play-on-scroll delay-14">
+                    <div class="zoom play-on-scroll delay-10">
                         <button data-food-type="ramen">
                             Ramen
                         </button>
                     </div>
-                    <div class="zoom play-on-scroll delay-15">
+                    <div class="zoom play-on-scroll delay-12">
                         <button data-food-type="dessert">
                             Desserts
                         </button>
